@@ -40,7 +40,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-indigo-700 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-500 to-indigo-700 p-4">
       
       {/* CONTENEDOR */}
       <div className="bg-white w-full max-w-md rounded-2xl shadow-xl p-8">
@@ -87,7 +87,7 @@ export default function LoginPage() {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg shadow-md transition"
+            className="w-full bg-green-600 hover:bg-blue-700 text-white py-2 rounded-lg shadow-md transition"
           >
             Entrar
           </button>
