@@ -178,7 +178,7 @@ export default function LoginPage() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="text-sm font-medium text-gray-700">
-              Correo electrónico
+              Correo electrónico2
             </label>
             <input
               type="email"
