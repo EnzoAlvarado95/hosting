@@ -11,8 +11,10 @@ export default function ResetPassword() {
   const router = useRouter();
 
   const submit = async (e:any) => {
+
+    const API_URL = process.env.NEXT_PUBLIC_API_URL;
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/api/auth/reset", {
+    const res = await fetch(`${API_URL}/auth/reset`, {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, token, password: pw })
     });

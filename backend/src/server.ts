@@ -9,8 +9,17 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "https://andali.com.mx",
+  origin: [
+    "https://andali.com.mx",
+    "https://www.andali.com.mx",
+    "http://localhost:3000"
+  ],
+  credentials: true
 }));
+
+
+app.disable("x-powered-by");
+
 app.use(express.json());
 
 app.use("/api/casas", casasRoutes);
