@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className="flex gap-2 sm:gap-3 mt-2 sm:mt-0">
             <Link href="/login">
-              <button className="px-3 sm:px-5 py-2 rounded-xl border border-blue-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-sm hover:shadow-md text-sm sm:text-base">
+              <button className="px-3 sm:px-5 py-2 rounded-xl border border-red-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-sm hover:shadow-md text-sm sm:text-base">
                 Login
               </button>
             </Link>
